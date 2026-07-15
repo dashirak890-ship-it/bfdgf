@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = "8682336617:AAEex2v172iD0mgrBAP7hdSSB46gHVq6xGk"
-SERVER = "https://key-server-ppi9.onrender.com"
+SERVER = "https://web-production-b166c.up.railway.app"
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "changeme123")
 ADMIN_IDS = os.environ.get("ADMIN_IDS", "835673342").split(",")
 
